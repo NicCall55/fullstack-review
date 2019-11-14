@@ -1,5 +1,7 @@
 {
   "name": "review-app",
+  "main": "server/server.js",
+  "proxy": "http://localhost:1337",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

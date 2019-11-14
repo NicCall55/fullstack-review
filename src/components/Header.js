@@ -1,10 +1,14 @@
 import React from 'react'
+import './Header.css'
+import logo from '../assets/Insta'
 
 const Header = () => {
     return (
-        <div>
-        Header
-        </div>
+        <header>
+        <div className='profile-pic'></div>
+        <img src={logo}/>
+        <div className='logout'></div>
+        </header>
     )
 }
 
